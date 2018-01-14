@@ -12,6 +12,10 @@ class WechatController extends Controller
     {
         $app = Factory::officialAccount([]);
 
+        $app->server->push(function ($message) {
+            return "您好！欢迎使用 EasyWeChat!";
+        });
+
         return $app->server->serve();
 
     }
