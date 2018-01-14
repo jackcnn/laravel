@@ -8,4 +8,11 @@ use EasyWeChat\Factory;
 class WechatController extends Controller
 {
     //
+    public function index()
+    {
+        $app = Factory::officialAccount([]);
+
+        return $app->server->serve();
+
+    }
 }
