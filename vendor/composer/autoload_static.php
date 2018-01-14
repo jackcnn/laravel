@@ -21,6 +21,7 @@ class ComposerStaticInite340321a690363065cf42043b5264932
         '6747f579ad6817f318cc3a7e7a0abb93' => __DIR__ . '/..' . '/overtrue/wechat/src/Kernel/Helpers.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
+        '7a467e1ae6b55206b14d3bc0a89a452a' => __DIR__ . '/../..' . '/common/Helper.php',
     );
 
     public static $prefixLengthsPsr4 = array (
