@@ -39,6 +39,7 @@ class WechatController extends Controller
                 default:
                     return '收到其它消息';
                     break;
+            }
         });
 
         return $app->server->serve();
